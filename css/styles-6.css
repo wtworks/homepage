@@ -916,9 +916,9 @@ h1.title-style2.white, h2.title-style2.white, h3.title-style2.white, h4.title-st
 
   /*Header style06*/
   .header-style6 .navbar-default {
-    background: rgba(208, 173, 85, 0.85); }
+    background: rgba(0, 0, 0, 0.85); }
   .header-style6.scrollHeader .navbar-default {
-    background: #d0ad55; }
+    background: #000000; }
 
   /*Header style08*/
   .header-style8 .navbar ul ul li.active > a {
@@ -966,7 +966,7 @@ h1.title-style2.white, h2.title-style2.white, h3.title-style2.white, h4.title-st
 
   /*Header style06*/
   .header-style6 .navbar-default {
-    background: rgba(208, 173, 85, 0.85); }
+    background: rgba(0, 0, 0, 0.85); }
 
   /*Header style08*/
   .header-style8 .navbar ul ul li.active > a {
@@ -983,7 +983,7 @@ h1.title-style2.white, h2.title-style2.white, h3.title-style2.white, h4.title-st
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1;
-    color: #fff;
+    color: #d0ad55;
     margin-bottom: 0; }
   .page-title-section ul {
     margin-bottom: 0;
@@ -997,17 +997,17 @@ h1.title-style2.white, h2.title-style2.white, h3.title-style2.white, h4.title-st
         content: '\f105';
         font-weight: 700;
         vertical-align: bottom;
-        color: #fff;
+        color: #d0ad55;
         font-family: Font Awesome\ 5 Free;
         padding: 0 10px; }
       .page-title-section ul li:last-child:after {
         content: none; }
       .page-title-section ul li a {
-        color: #fff;
+        color: #d0ad55;
         font-size: 14px;
         font-weight: 500; }
   .page-title-section .active a, .page-title-section li.active:last-child a {
-    color: #fff; }
+    color: #d0ad55; }
 
 @media screen and (max-width: 1199px) {
   .page-title-section h1 {
