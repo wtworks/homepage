@@ -110,7 +110,7 @@
 
         <!-- start page title section -->
         <section class="page-title-section2 bg-img cover-background" data-overlay-dark="7"
-            data-background="img/bg/bg4.jpg">
+            data-background="img/bg/bg7.jpg">
         </section>
         <!-- end page title section -->
 
@@ -118,9 +118,9 @@
         <section id="recruit" class="bg-extra-dark-gray">
             <div class="container">
                 <div class="section-heading white ">
-                    <h3>募集情報</h3>
+                    <h3>募集情報</h3><br><br>
                     <div class="text-left">
-                        <p class="width-55 sm-width-75 xs-width-135　">
+                        <p>
                             私たちと一緒に働きませんか?
                             <br>グローバルな独立系SI企業を目指す当社で、あなたも実力を発揮してみませんか？
                             <br>2018年の設立以来、システムインテグレータとして着実に成長を続けてきた。
@@ -233,8 +233,109 @@
 
 
 
+        <!-- start contact info section -->
+        <section id="contact" class="parallax" data-overlay-dark="9" data-background="img/bg/bg2.jpg">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 col-md-12 margin-30px-bottom">
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-heading left white">
+                                    <h4>お問い合わせ</h4>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding-25px-bottom border-bottom border-color-light-white">
+                                    <span
+                                        class="d-inline-block font-size26 line-height-30 text-light-gray vertical-align-top width-30px"><i
+                                            class="fas fa-phone vertical-align-top"></i></span>
+                                    <div class="d-inline-block vertical-align-top padding-10px-left width-75">
+                                        <h5 class="margin-5px-bottom text-white text-uppercase font-size15">連絡先</h5>
+                                        <p class="no-margin line-height-normal text-light-gray">
+                                            TEL：03-5829-5767<br>FAX：03-5809-1069</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding-25px-tb border-bottom border-color-light-white">
+                                    <span
+                                        class="d-inline-block font-size26 line-height-30 text-light-gray vertical-align-top width-30px"><i
+                                            class="fas fa-map-marker-alt vertical-align-top"></i></span>
+                                    <div class="d-inline-block vertical-align-top padding-10px-left width-75">
+                                        <h5 class="margin-5px-bottom text-white text-uppercase font-size15">所在地</h5>
+                                        <p class="no-margin line-height-normal text-light-gray">〒101-0032
+                                            東京都千代田区岩本町3－5－2<br>THE GATE AKIHABARA 202号室</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding-25px-tb">
+                                    <span
+                                        class="d-inline-block font-size26 line-height-30 text-light-gray vertical-align-top width-30px"><i
+                                            class="far fa-envelope vertical-align-top"></i></span>
+                                    <div class="d-inline-block vertical-align-top padding-10px-left width-75">
+                                        <h5 class="margin-5px-bottom text-white text-uppercase font-size15">Eメール</h5>
+                                        <p class="no-margin line-height-normal text-light-gray">
+                                            sales@list.wisdom-technology.co.jp</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="margin-10px-top footer-social-icons">
+                                    <ul>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 offset-lg-1">
+                        <div
+                            class="contact-form-box bg-white padding-30px-all sm-padding-20px-all border border-width-8">
+                            <h5 class="font-size18">ご利用に関するお問い合わせはこちら</h5>
+                            <form method="post" action="bat/rd-mailform.php" class="mailform off2">
+                                <input type="hidden" name="form-type" value="contact">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="name" placeholder="お名前:"
+                                            data-constraints="@LettersOnly @NotEmpty">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="phone" placeholder="電話番号:" data-constraints="@Phone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="email" placeholder="Eメール"
+                                            data-constraints="@Email @NotEmpty">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea name="Message" rows="3" placeholder="メッセージ:"
+                                            data-constraints="@NotEmpty"></textarea>
+                                    </div>
+                                    <div class="mfControls col-md-12">
+                                        <button type="submit" class="butn">送　信</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end contact info section -->
+
         <!-- start footer section -->
-        <footer class="bg-white">
+        <footer class="bg-theme">
             <div class="footer-bar">
                 <div class="container">
                     <p class="xs-font-size13">Copyright©
