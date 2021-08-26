@@ -4306,18 +4306,18 @@ h1.title-style2.white, h2.title-style2.white, h3.title-style2.white, h4.title-st
   padding: 0 10px; }
   .project-single-info ul li {
     color: #777;
-    font-size: 13px;
-    font-weight: 500;
-    border-bottom: 1px solid #ececec;
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom: 1px solid #d4d4d4;
     padding: 10px 0; }
     .project-single-info ul li:last-child {
       border-bottom: none; }
     .project-single-info ul li span {
       display: inline-block;
       color: #232323;
-      font-size: 13px;
-      font-weight: 550;
-      margin-right: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-right: 10px;
       width: 70px;
       max-width: 100%; }
     .project-single-info ul li .value {
